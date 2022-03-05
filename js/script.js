@@ -1,0 +1,84 @@
+$(document).ready(function() {
+    $(".header__burger").click(function(event) {
+        $(".header__burger, .header-content__menu, .header-content__saved").toggleClass('active');
+        $("body").toggleClass('lock');
+    });
+});
+
+$(document).ready(function(){
+    $(".slider-one").slick({
+        arrows:false,
+        dots:false,
+        adaptiveHeight:true,
+        slidesToShow:3,
+        slidesToScroll:3,
+        infinite:false,
+        responsive:[
+            {
+                breakpoint:1440,
+                settings:{
+                    dots:true,
+                    slidesToShow:2.7,
+                    slidesToScroll:3,
+                }
+        },{
+            breakpoint:1300,
+            settings:{
+                dots:true,
+                slidesToShow:2.45,
+                slidesToScroll:1,
+            }
+    },{
+        breakpoint:1190,
+        settings:{
+            dots:true,
+            slidesToShow:2.2,
+            slidesToScroll:1,
+        }
+},{
+    breakpoint:1065,
+    settings:{
+        dots:true,
+        slidesToShow:2.1,
+        slidesToScroll:1,
+    }
+},{
+    breakpoint:1024,
+    settings:{
+        dots:true,
+        slidesToShow:2,
+        slidesToScroll:1,
+    }
+},{
+    breakpoint:990,
+    settings:{
+        dots:true,
+        slidesToShow:1.5,
+        slidesToScroll:1,
+    }
+},{
+    breakpoint:750,
+    settings:{
+        dots:true,
+        slidesToShow:1.2,
+        slidesToScroll:1,
+    }
+},{
+    breakpoint:610,
+    settings:{
+        dots:true,
+        slidesToShow:1,
+        slidesToScroll:1,
+    }
+},{
+    breakpoint:460,
+    settings:{
+        dots:true,
+        slidesToShow:1,
+        slidesToScroll:1,
+    }
+}
+    ]
+    });
+});
+

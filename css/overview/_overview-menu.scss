@@ -1,0 +1,108 @@
+.overview__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.overview__overview {
+    flex: 0 1 23%;
+    background: #FF8000;
+    border-radius: 5px;
+    width: 100%;
+}
+.overview__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: $color_4;
+    padding:10px;
+    &::before{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("../img/overview/icons/menu1.svg") center no-repeat;
+        padding-right:10px ;
+    }
+}
+.overview__address {
+    &::before{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("../img/overview/icons/menu2.svg") center no-repeat;
+        padding-right:10px;
+    }
+}
+.overview-menu__item--active{
+    flex: 0 1 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF8000;
+    border-bottom: 2px solid #FF8000;
+    padding: 8px 0;
+}
+.overview-menu__item{
+    flex: 0 1 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #858585;
+}
+.overview-menu__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.overview__invoices {
+    &::before{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("../img/overview/icons/menu3.svg") center no-repeat;
+        padding-right:10px ;
+    }
+}
+.overview__dowlands {
+    &::before{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("../img/overview/icons/menu4.svg") center no-repeat;
+        padding-right:10px ;
+    }
+}
+@media(max-width:600px){
+    .overview__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .overview__overview {
+        flex: 0 1 99%;
+        margin-bottom: 30px;
+    }
+    .overview__address {
+        margin-bottom: 30px;
+    }
+    .overview-menu__item--active{
+        flex: 0 1 99%;
+        border: none;
+    }
+    .overview-menu__item{
+        flex: 0 1 99%;
+    }
+    .overview__invoices {
+        margin-bottom: 30px;
+    }
+}

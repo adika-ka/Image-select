@@ -1,0 +1,30 @@
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-container__content {
+    flex: 0 0 66%;
+    padding-top: 40px;
+}
+.box-container__sidebar {
+    padding-top: 80px;
+    flex: 0 0 32%;
+    padding-left: 20px;
+}
+@media(max-width:768px){
+    .box-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box-container__content {
+        flex: 0 0 98%;
+        padding-top: 40px;
+    }
+    .box-container__sidebar {
+        flex: 0 0 98%;
+        padding-left: 0px;
+        margin-bottom: 60px;
+    }
+}

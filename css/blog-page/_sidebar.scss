@@ -1,0 +1,113 @@
+.sidebar__content {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar__folow {
+    margin-bottom: 30px;
+}
+.sidebar-folow__title {
+    margin-bottom: 14px;
+}
+.sidebar-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+.sidebar__sochial {
+    img{
+        width: 44px;
+        height: 44px;
+        max-width: 100%;
+        margin-right: 20px;
+    }
+}
+.sidebar__categories {
+    border-bottom:  1px solid #EAEAEA;
+    border-top: 1px solid #EAEAEA;;
+    margin-bottom: 30px;
+    padding: 30px 0 50px 0;
+}
+.sidebar-categories__title {
+    margin-bottom: 20px;
+}
+.sidebar-categories__links {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-categories__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-categories__link--active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #FBFBFB 0%, rgba(251, 251, 251, 0) 100%);
+    padding: 20px 0 20px 20px;
+    border: 1px solid #EAEAEA;
+    margin: 20px 0;
+}
+.sidebar-categories-link__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+}
+.sidebar-categories-link__num {
+    background: #FF8000;
+    border-radius: 15px;
+    padding: 2px 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: $color_4;
+    
+}
+.sidebar-categories-link__text--active {
+    color: #FF8000;
+}
+.sidebar__resent {
+}
+.sidebar-resent__title {
+    margin-bottom: 20px;
+}
+.sidebar-resent__items {
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-resent__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.sidebar-resent-item__image {
+    margin-right: 10px;
+}
+.sidebar-resent-item__content {
+    display: flex;
+    flex-direction: column;
+}
+.resent-item-content__data {
+    display: flex;
+}
+.item-content-data__icon {
+    margin-right: 5px;
+}
+.item-content-data__numeric {
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8A8A;
+}
+.resent-item-content__title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 125%;
+}
+.resent-item-content__subtitle {
+    font-size: 13px;
+    line-height: 125%;
+}

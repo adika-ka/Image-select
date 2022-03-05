@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+$color_1: #24211F;
+$color_2: #8C8C8C;
+$color_3: #FF4D00;
+$color_4: #FFFFFF;
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: $color_1;
+}
+li {
+    list-style-type: none;
+  }
+  a{
+      text-decoration: none;
+  }
+.container {
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.content {
+    min-height: calc(100vh - 240px);
+}

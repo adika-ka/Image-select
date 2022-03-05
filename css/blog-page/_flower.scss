@@ -1,0 +1,38 @@
+.flower {
+    margin-bottom: 50px;
+}
+.flower__subtitle {
+    margin-bottom: 40px;
+}
+.flower__body {
+    p{
+        margin-bottom: 30px;
+    }
+}
+.flower-body__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+}
+.flower__image {
+    margin-bottom: 30px;
+    img{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.flower-image__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    color: #8A8A8A;
+    a{
+        color: #FF8202;
+        text-decoration: underline;
+    }
+}
+.flower-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+}

@@ -1,0 +1,43 @@
+.landscape {
+    margin-bottom: 50px;
+}
+.landscape__subtitle {
+    margin-bottom: 40px;
+}
+.subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31.9px;
+}
+.landscape__body {
+    p{
+        margin-bottom: 30px;
+    }
+}
+.landscape-body__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+}
+.landscape__image {
+    margin-bottom: 30px;
+    img{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.landscape-image__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    color: #8A8A8A;
+    a{
+        color: #FF8202;
+        text-decoration: underline;
+    }
+}
+.landscape-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+}
