@@ -3,6 +3,7 @@
     position: relative;
     margin-bottom: 80px;
     z-index: 0;
+    cursor: pointer;
 }
 .slider__items {
         display: flex;
@@ -79,6 +80,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    :hover{
+        opacity: 0.7;
+    }
     &::after{
         content: "";
         display: block;
@@ -106,6 +110,9 @@
 .slider-continue{
     display: flex;
     justify-content: flex-end;
+    :hover{
+        opacity: 0.7;
+    }
 }
 .slider-one {
     min-width: 0;

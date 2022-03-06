@@ -1,6 +1,10 @@
 .about {
     background: linear-gradient(180deg, #EFF3F6 0%, #FFFFFF 100%);
     padding-top: 80px;
+    img{
+        border-radius: 25px;
+        overflow: hidden;
+    }
 }
 .about__container {
     max-width: 1210px;

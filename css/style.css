@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+a :hover {
+  opacity: 0.7;
+}
+
 .container {
   max-width: 1440px;
   padding: 0 30px;
@@ -1001,6 +1005,10 @@ a {
   margin-right: 50px;
 }
 
+.header-content__saved :hover {
+  opacity: 0.7;
+}
+
 .header-content__saved::before {
   content: "";
   display: block;
@@ -1024,6 +1032,10 @@ a {
 
 .header-content__menu {
   margin-right: 40px;
+}
+
+.header-content__menu :hover {
+  opacity: 0.7;
 }
 
 .menu__links {
@@ -1313,6 +1325,11 @@ a {
   margin-bottom: 40px;
 }
 
+.post img {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
 .post__title {
   margin-bottom: 17px;
 }
@@ -1358,6 +1375,10 @@ a {
   border-radius: 5px;
   margin-right: 10px;
   padding: 2px 9px;
+}
+
+.image-sign__text p:last-child {
+  margin-right: 0;
 }
 
 .post-content__title {
@@ -1431,6 +1452,7 @@ a {
   position: relative;
   margin-bottom: 80px;
   z-index: 0;
+  cursor: pointer;
 }
 
 .slider__items {
@@ -1552,6 +1574,10 @@ a {
           align-items: center;
 }
 
+.continue-slider :hover {
+  opacity: 0.7;
+}
+
 .continue-slider::after {
   content: "";
   display: block;
@@ -1591,6 +1617,10 @@ a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.slider-continue :hover {
+  opacity: 0.7;
 }
 
 .slider-one {
@@ -1680,6 +1710,11 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.box-container img {
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .box-container__content {
@@ -2591,6 +2626,11 @@ input[type=file] {
   background: -webkit-gradient(linear, left top, left bottom, from(#EFF3F6), to(#FFFFFF));
   background: linear-gradient(180deg, #EFF3F6 0%, #FFFFFF 100%);
   padding-top: 80px;
+}
+
+.about img {
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .about__container {

@@ -825,6 +825,9 @@
     display: flex;
     align-items: center;
     margin-right: 50px;
+    :hover{
+        opacity: 0.7;
+    }
     &::before{
         content: "";
         display: block;
@@ -846,6 +849,9 @@
 }
 .header-content__menu {
     margin-right: 40px;
+    :hover{
+        opacity: 0.7;
+    }
 }
 .menu__links {
     display: flex;

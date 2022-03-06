@@ -1,5 +1,9 @@
 .post {
     margin-bottom: 40px;
+    img{
+        border-radius: 25px;
+        overflow: hidden;
+    }
 }
 .post__title {
     margin-bottom: 17px;
@@ -16,7 +20,7 @@
 .post__image {
     margin-right: 30px;
     position: relative;
-    z-index: -1;
+    z-index: -1; 
 }
 .image__sign {
     position: absolute;
@@ -33,6 +37,9 @@
         border-radius: 5px;
         margin-right: 10px;
         padding: 2px 9px;
+    }
+    & p:last-child{
+        margin-right: 0;
     }
 }
 .post-content__title {
